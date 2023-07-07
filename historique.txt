@@ -1,0 +1,52 @@
+Id CommandLine                                                               
+  -- -----------                                                               
+   1 Get-Location                                                              
+   2 Get-Host                                                                  
+   3 Set-Location -Path C:\                                                    
+   4 Get-Location                                                              
+   5 New-Item -Path C:\Users\Fairskip\Documents -ItemType Directory            
+   6 New-Item -Path C:\Users\Fairskip\Documents\Temp -ItemType Directory       
+   7 set-location Temp                                                         
+   8 set-location C:\Users\Fairskip\Documents\Temp                             
+   9 New-Item -Path Rep1 -ItemType Directory                                   
+  10 New-Item -Path Rep2 -ItemType Directory                                   
+  11 Get-ChildItem                                                             
+  12 New-Item -path file1 -ItemType file                                       
+  13 New-Item -Path file2 -ItemType file                                       
+  14 New-Item -Path file3 -ItemType file                                       
+  15 Get-ChildItem                                                             
+  16 move-item -Path file1 -Destination rep1                                   
+  17 Move-Item -Path file2 -Destination rep2                                   
+  18 Get-ChildItem                                                             
+  19 Get-ChildItem -Path rep1                                                  
+  20 Get-ChildItem -recurse                                                    
+  21 Remove-Item -Path file3                                                   
+  22 Remove-Item rep2 -recurse                                                 
+  23 Get-ChildItem -recurse                                                    
+  24 Get-ChildItem                                                             
+  25 Remove-Item rep1-recurse                                                  
+  26 remove-item rep1 -Recurse                                                 
+  27 Get-ChildItem                                                             
+  28 Set-Location -Path C:\...                                                 
+  29 New-Item -path EvenFolder -ItemType directory                             
+  30 New-Item -path OddFolder -ItemType Directory                              
+  31 Move-Item -Path C:\FolderTest1\File2 -Destination C:\EvenFolder           
+  32 Move-Item -Path C:\FolderTest1\File4 -Destination C:\EvenFolder           
+  33 Move-Item -Path C:\FolderTest2\File6 -Destination C:\EvenFolder           
+  34 Move-Item -Path C:\FolderTest2\File8 -Destination C:\EvenFolder           
+  35 Move-Item -Path C:\FolderTest2\File10 -Destination C:\EvenFolder          
+  36 Move-Item -Path C:\FolderTest1\File1 -Destination C:\OddFolder            
+  37 Move-Item -Path C:\FolderTest1\File3 -Destination C:\OddFolder            
+  38 Move-Item -Path C:\FolderTest1\File5 -Destination C:\OddFolder            
+  39 Move-Item -Path C:\FolderTest2\File7 -Destination C:\OddFolder            
+  40 Move-Item -Path C:\FolderTest2\File9 -Destination C:\OddFolder            
+  41 Get-ChildItem oddfolder                                                   
+  42 Get-ChildItem evenfolder                                                  
+  43 Get-History | out-file C:\Users\Linus\Documents\Historique                
+  44 Get-History | out-file C:\Users\Fairskip\Documents\Historique             
+  45 Get-History | out-file C:\Users\Fairskip\Documents\Historique             
+  46 Move-Item -Path C:\EvenFolder -Destination C:\Users\Fairskip\Documents\Temp
+  47 Move-Item -Path C:\OddFolder -Destination C:\Users\Fairskip\Documents\Temp
+  48 Move-Item -Path foldertest1 -Destination C:\Users\Fairskip\Documents\Temp 
+  49 Move-Item -Path foldertest2 -Destination C:\Users\Fairskip\Documents\Temp 
+  50 Get-ChildItem -Path C:\Users\Fairskip\Documents\Temp -Recurse | out-file C:\Users\Fairskip\Documents\Temp\listing
