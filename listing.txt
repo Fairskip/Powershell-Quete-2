@@ -1,0 +1,34 @@
+    Répertoire : C:\Users\Fairskip\Documents\Temp
+
+
+Mode                LastWriteTime         Length Name                          
+----                -------------         ------ ----                          
+d-----       07/07/2023     02:43                EvenFolder                    
+d-----       07/07/2023     02:45                foldertest1                   
+d-----       07/07/2023     02:45                foldertest2                   
+d-----       07/07/2023     02:45                OddFolder                     
+-a----       07/07/2023     03:10              0 listing                       
+
+
+    Répertoire : C:\Users\Fairskip\Documents\Temp\EvenFolder
+
+
+Mode                LastWriteTime         Length Name                          
+----                -------------         ------ ----                          
+-a----       07/07/2023     02:40              0 File10                        
+-a----       07/07/2023     02:40              0 File2                         
+-a----       07/07/2023     02:40              0 File4                         
+-a----       07/07/2023     02:40              0 File6                         
+-a----       07/07/2023     02:40              0 File8                         
+
+
+    Répertoire : C:\Users\Fairskip\Documents\Temp\OddFolder
+
+
+Mode                LastWriteTime         Length Name                          
+----                -------------         ------ ----                          
+-a----       07/07/2023     02:40              0 File1                         
+-a----       07/07/2023     02:40              0 File3                         
+-a----       07/07/2023     02:40              0 File5                         
+-a----       07/07/2023     02:40              0 File7                         
+-a----       07/07/2023     02:40              0 File9  
